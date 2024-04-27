@@ -1,0 +1,20 @@
+<div class="resume-section-content">
+    <h2 class="mb-5 text-warning">Experience</h2>
+
+    {% for ea in profex_list %}
+
+    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
+
+        <div class="flex-grow-1">
+            <h3 class="mb-0">{{ea['POS']}}</h3>
+            <div class="subheading mb-3">{{ea['FIRM']}}</div>
+            <p>{{ea['DESC']}}</p>
+        </div>
+
+        <div class="flex-shrink-0"><span class="text-warning fw-bold">{{ea['PER']}}</span></div>
+    
+    </div>
+
+    {% endfor %}
+    
+</div>

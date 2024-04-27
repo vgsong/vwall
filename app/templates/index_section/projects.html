@@ -1,0 +1,20 @@
+<div class="resume-section-content">
+    <h2 class="mb-5 text-info">Projects</h2>
+
+    {% for ea in proj_list %}
+
+    <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+        
+        <div class="flex-grow-1">
+            <h3 class="mb-0">{{ ea['PROJTITLE'] }} <li class="list-inline-item"><i class="fab fa-python"></i></li></h3>
+
+            <!-- <div class="subheading mb-3">Bachelor of Science</div> -->
+            <div>{{ ea['CONTEXT'] }}</div>
+            <a href="{{ea['URL']}}"><p>GITHUB LINK</p></a>
+        </div>
+        
+    </div>
+
+    {% endfor %}
+
+</div>

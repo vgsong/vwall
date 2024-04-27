@@ -1,0 +1,6 @@
+﻿PROJTITLE,CONTEXT,URL,ICON
+INVOICE UPLOADER,invoice uploader using selenium,placeholder,python-logo-sm.png
+EMPSEARCH,used for quick employee look up,placeholder,python-logo-sm.png
+DTEKLAUNCHER,launches the erp system with few quick access buttons,placeholder,python-logo-sm.png
+PDFATTACHER,"The finance deparment obtains a monthly invoice batch where hundred of invoices gets generated. If an invoice belongs to a specific project, it requires pre-approved timesheets support by the client attached to it.",https://github.com/vgsong/cord-inv-merger,python-logo-sm.png
+FCC,freeCodeCamp.com Certification Challenges,https://github.com/vgsong/FCC,python-logo-sm.png

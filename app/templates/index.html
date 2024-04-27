@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %} 
+
+    {% for section in index_content_list %}
+
+        <section class="resume-section" id={{section[:-5]}}>
+
+            {% include 'index_section/' + section %}
+
+        </section>
+
+        <hr class="m-0" />
+
+    {% endfor %}
+
+{% endblock %} 
