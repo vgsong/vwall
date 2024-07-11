@@ -1,16 +1,29 @@
 {% extends 'base.html' %}
 {% block content %} 
 
-    {% for section in index_content_list %}
+    <!-- acting as body, moved one child dir down so i can split (use extend) at template level -->
+    <div id="page-top">
 
-        <section class="resume-section" id={{section[:-5]}}>
+        <!-- Navigation-->
+        {% include 'navbar/navbar.html' %}
 
-            {% include 'index_section/' + section %}
+        <!-- Page Content-->
+        <div class="container-fluid p-0 bg-dark ">
 
-        </section>
+            {% for section in index_content_list %}
 
-        <hr class="m-0" />
+            <section class="resume-section" id={{section[:-5]}}>
 
-    {% endfor %}
+                {% include 'index_section/' + section %}
+
+            </section>
+
+            <hr class="m-0" />
+
+            {% endfor %}
+
+        </div>
+
+    </div>
 
 {% endblock %} 

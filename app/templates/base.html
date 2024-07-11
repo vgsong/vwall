@@ -23,16 +23,10 @@
     
     </head>
     
-    <body id="page-top">
+    <body class="bg-dark">
 
-        <!-- Navigation-->
-        {% include 'navbar/navbar.html' %}
-
-        <!-- Page Content-->
-        <div class="container-fluid p-0 bg-dark ">
-            {% block content %}
-            {% endblock %}
-        </div>
+        {% block content %}
+        {% endblock %}
 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

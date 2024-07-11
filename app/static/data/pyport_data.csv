@@ -1,6 +1,6 @@
-﻿PROJTITLE,CONTEXT,URL,ICON
-INVOICE UPLOADER,invoice uploader using selenium,placeholder,python-logo-sm.png
-EMPSEARCH,used for quick employee look up,placeholder,python-logo-sm.png
-DTEKLAUNCHER,launches the erp system with few quick access buttons,placeholder,python-logo-sm.png
-PDFATTACHER,"The finance deparment obtains a monthly invoice batch where hundred of invoices gets generated. If an invoice belongs to a specific project, it requires pre-approved timesheets support by the client attached to it.",https://github.com/vgsong/cord-inv-merger,python-logo-sm.png
-FCC,freeCodeCamp.com Certification Challenges,https://github.com/vgsong/FCC,python-logo-sm.png
+﻿PROJTITLE,CONTEXT,URL
+INVOICE UPLOADER,Small bot invoice uploader. Currently used by fin department. About 2500 invoices uploaded in 2023 and hundreds of hours saved (Modified).,https://github.com/vgsong/inv_bot
+My Website,Small profile webapp using Flask framework. Just the repository of this website.,https://github.com/vgsong/inv_bot
+ERPLAUNCHER,Direct shortcut. Launches the erp system webapp module directly with few quick access buttons instead of having to click around in the UI through the web browser.,placeholder
+PDFATTACHER,"The finance deparment obtains a monthly invoice batch where hundred of invoices gets generated. If an invoice belongs to a specific project, it requires pre-approved timesheets support by the client attached to it.",placeholder
+FCC,freeCodeCamp.com Certification Challenges. Helped me Learn how much I dont know,https://github.com/vgsong/FCC
